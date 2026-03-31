@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "dev.haxalotl.orpheus.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "ExampleMixin",
+    "RespawnAnchorBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}
